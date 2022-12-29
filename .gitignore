@@ -1,0 +1,12 @@
+token.json
+credentials.json
+node_modules/
+yarn-error.log
+.venv/
+.ruff_cache
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.env
+data/
+.DS_Store

@@ -1,0 +1,12 @@
+{
+  "name": "nba-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aumit Leon <aumitleon@gmail.com>",
+  "license": "MIT",
+
+  "scripts": {
+    "list-playerperfs-data": "gsutil ls gs://natstat-nba-data/playerperfs/",
+    "call-natstat-api": "poetry run python scripts/call_natstat_api.py"
+  }
+}
