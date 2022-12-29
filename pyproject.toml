@@ -20,7 +20,12 @@ python-dotenv = "^0.21.0"
 ipykernel = "^6.19.4"
 ipython = "^8.7.0"
 ruff = "^0.0.199"
+pre-commit = "^2.21.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+# Never enforce `E501` (line length violations).
+ignore = ["E501"]
